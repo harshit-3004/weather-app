@@ -23,19 +23,16 @@ class Comments extends Component {
     render() {
         const listOfComments = this.state.comments.map(eachComment => (
             <p
-                style={{ textAlign: 'left' }}
-            >
+                style={{ textAlign: 'left' }}>
                 <i class="fa fa-user" aria-hidden="true"></i> {eachComment}
             </p>
         ))
         return (
             <div>
                 <div style={{}}>
-                    <div
-                    >
+                    <div>
                         <div
-                            style={{ border: '1px solid white', padding: '10px', fontFamily: ' Roboto,sans-serif' }}
-                        >
+                            style={{ border: '1px solid white', padding: '10px', fontFamily: ' Roboto,sans-serif' }}>
                             <textarea
                                 placeholder="Enter your comment here..."
                                 value={this.state.userComment}
