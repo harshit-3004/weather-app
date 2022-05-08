@@ -1,0 +1,14 @@
+.headerbg {
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: darkblue;
+    height: 55px
+}
+
+.heading{
+    color: white;
+    font-size: 35px
+}
